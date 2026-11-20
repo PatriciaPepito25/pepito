@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -35,7 +35,7 @@
         <p class="hero-text">Eat varities delicious of food, fast Wi-Fi, and an outlet at every table.</p>
         <a class="button" href="#menu">Click here</a>
       </div>
-      <img class="hero-image" src="images/food_spot.jpg">
+      <img fetchpriority="high" class="hero-image" src="images/food_spot.webp">
     </section>
 
     <!-- 2. Three favourites (a dark section) -->
@@ -44,17 +44,17 @@
       <h2>Our three favourites</h2>
       <div class="cards">
         <article class="card">
-          <img src="images/pizza.jpg">
+          <img loading="lazy" src="images/pizza.webp">
           <h3>Crusty Pizzas</h3>
           <p>Our tasty pizza. Cheezy and with thick crust.</p>
         </article>
         <article class="card">
-          <img src="images/desserts.jpg">
+          <img loading="lazy" src="images/desserts.webp">
           <h3>Mini Frosty Cakes</h3>
           <p>Small shots of cups filled with layers of flavoirs and toppings.</p>
         </article>
         <article class="card">
-          <img src="images/macaroons.jpg">
+          <img loading="lazy" src="images/macaroons.webp">
           <h3>Macaroons</h3>
           <p>Foods that gave you an unforgettable taste.</p>
         </article>
